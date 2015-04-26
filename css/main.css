@@ -52,10 +52,7 @@ textarea {
     padding: 0.2em 0;
 }
 
-
-/* ===== Initializr Styles ==================================================
-   Author: Jonathan Verrecchia - verekia.com/initializr/responsive-template
-   ========================================================================== */
+/* CUSTOM STYLES ------ */
 
 body {
     background-image: url("../img/shattered.png");
@@ -68,33 +65,13 @@ body {
 }
 
 
-/* ===================
-    THEME
-   =================== */
-
+/* HEADER --- */
 .header-container {
     background-color: transparent;
     color:#56E79E;
     height:90px;
 }
 
-.tagline {
-    margin:30px 0px 40px 0px;
-    text-align: center;
-    color:#7FCC8D;
-    color:#6FD08C;
-    color:#D6764F;
-    font-family: 'Rammetto One';
-    text-shadow: 1px 2px 0px #883668;
-    line-height:40px;
-}
-.tagline svg {
-    margin-top:-21px;
-    fill: #D6764F;
-}
-
-header.wrapper.clearfix {
-}
 
 .logo {
     color:#7FCC8D;
@@ -109,254 +86,18 @@ header.wrapper.clearfix {
     width:auto;
 }
 
-.tweet {
-    color:white;
-    position: relative;
-    top:20px;
-    width: 95%;
-    height: auto;
-    padding: 8px;
-    background: #883668;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    border-radius: 5px;
-    margin: 0 auto;
-    word-wrap:break-word;
-}
-
-/* speech bubble triangle */
-.tweet:after {
-    content: "";
-    position: absolute;
-    top: -15px;
-    left: 17px;
-    border-style: solid;
-    border-width: 15px 15px 5px 0;
-    border-color: transparent #883668;
-    display: block;
-    width: 0;
-    z-index: 1;
-}
-
-.tweet a {
-    color:;
-}
-
-.twitter_reply_icon, .twitter_retweet_icon, .twitter_fav_icon {
-    font-size:0px;
-    display: inline-block;
+.tagline {
+    margin:30px 0px 40px 0px;
     text-align: center;
-    padding:4px;
-    width:20px;
-}
-
-.twitter_reply_icon:before, .twitter_retweet_icon:before, .twitter_fav_icon:before {
-}
-
-.twitter_reply_icon:before {
-    content: '\f112';
-    font-family: FontAwesome;
-     font-style: normal;
-    font-weight: normal;
-    text-decoration: inherit;
-/*--adjust as necessary--*/
-    font-size: 18px;
-    padding-right: 0.5em;
-}
-
-.twitter_retweet_icon:before {
-    content: '\f079';
-    font-family: FontAwesome;
-     font-style: normal;
-    font-weight: normal;
-    text-decoration: inherit;
-/*--adjust as necessary--*/
-    font-size: 18px;
-    padding-right: 0.5em;
-}
-
-.twitter_fav_icon:before {
-    content: '\f005';
-    font-family: FontAwesome;
-     font-style: normal;
-    font-weight: normal;
-    text-decoration: inherit;
-/*--adjust as necessary--*/
-    font-size: 18px;
-    padding-right: 0.5em;
-}
-
-.twiter_retweet_icon:before {
-    content: '\f079';
-    font-family: FontAwesome;
-    font-style: normal;
-    font-weight: normal;
-    text-decoration: inherit;
-/*--adjust as necessary--*/
-    color: #D6764F;
-    font-size: 18px;
-    padding-right: 0.5em;
-    position: absolute;
-    top: 10px;
-    left: 0;
-}
-
-.twiter_fav_icon:before {
-    content: '\f005';
-    font-family: FontAwesome;
-    font-style: normal;
-    font-weight: normal;
-    text-decoration: inherit;
-/*--adjust as necessary--*/
-    color: #D6764F;
-    font-size: 18px;
-    padding-right: 0.5em;
-    position: absolute;
-    top: 10px;
-    left: 0;
-}
-
-/*
- .twitter_fav_icon, .twitter_retweet_icon
-            text-align: center
-            font-size: 0px
-            width: calc(100% / 3)
-            display: inline-block
-            &:before
-                font-size: 22px
-                font-family: 'Fontawesome'
-                -webkit-font-smoothing: antialiased
-                padding-right: 4px
-        .twitter_reply_icon
-            &:before
-                content: '\f112'
-        .twitter_retweet_icon
-            &:before
-                content: '\f079'
-        .twitter_fav_icon
-            &:before
-                content: '\f005'
-
-*/
-#katsfeed {
-    font-family:"Maven Pro", "Ubuntu";
-}
-
-#katsfeed ul {
-    list-style:none;
-    padding:0px;
-}
-
-#katsfeed a {
-    text-decoration:none;
-    color:#D6764F
-}
-
-.user {
-    font-weight:bold;
-    display:inline-block;
-}
-
-.user span {
-    display:block;
-    width:150px;
-}
-
-.user img {
-    float:left;
-    margin-right:15px;
-}
-
-.user > a {
-    text-decoration:none;
-}
-
-.interact {
-    position: relative;
-    float: right;
-    margin-top:-30px;
-    
-}
-
-.interact a {
-    color:#e29f83;
-}
-
-iframe {
-    margin-bottom: 15px;
-    margin-left:-5px;
-    -webkit-box-shadow: 5px 5px #6FD08C;
-    -moz-box-shadow: 5px 5px #6FD08C;
-    box-shadow: 5px 5px #6FD08C;
-}
-.footer-container {
-    border-top: 20px solid #e44d26;
-}
-
-.footer-container {
-    background: #f16529;
-}
-
-.title {
-    color: white;
-}
-
-.text {
-    background-color:#7FCC8D;
-    background-color:#6FD08C;
-    -webkit-box-shadow: 0 5px 10px #aaa;
-    -moz-box-shadow: 0 5px 10px #aaa;
-    box-shadow: 0 5px 10px #aaa;
-    padding:10px;
-}
-
-article {
-    line-height:20px;
-}
-
-button {
-    padding: 5px;
-    border: 2px solid #D6764F;
-    background-color:#e29f83;
-    float: right;
-    margin-top: 15px;
-    line-height:25px;
-    border-radius:3px;
-    font-family:"Ubuntu";
-}
-
-button:hover {
-    background-color:#D6764F ;
-}
-
-button a {
-    text-decoration:none;
-    color:white;
-}
-
-.follow svg {
-    fill:white;
-}
-
-.avatar {
-    height: 100px;
-    width: 100px;
-    border-radius: 50%;
-    -webkit-box-shadow: 0 5px 10px #aaa;
-    -moz-box-shadow: 0 5px 10px #aaa;
-    box-shadow: 0 5px 10px #aaa;
-    margin-top: -30px;
-    margin-left: -39px;
-    margin-right:15px;
-    float: left;
-}
-
-.avatar img {
-    height:inherit;
-    width:inherit;
-    border-radius:inherit;
-    border: 5px solid #7FCC8D;
-    border: 5px solid #6FD08C;
+    color:#7FCC8D;
+    color:#6FD08C;
+    color:#D6764F;
+    font-family: 'Rammetto One';
+    text-shadow: 1px 2px 0px #883668;
+    line-height:40px;
+} .tagline svg {
+    margin-top:-21px;
+    fill: #D6764F;
 }
 
 .social {
@@ -388,6 +129,74 @@ ul.social {
     fill:#883668;
 }
 
+/* MAIN --- */
+article {
+    line-height:25px;
+}
+
+.content {
+    background-color:#7FCC8D;
+    background-color:#6FD08C;
+    -webkit-box-shadow: 0 5px 10px #aaa;
+    -moz-box-shadow: 0 5px 10px #aaa;
+    box-shadow: 0 5px 10px #aaa;
+    padding:10px;
+}
+
+.content a {
+    color:#D6764F
+}
+
+button {
+    padding: 5px;
+    border: 2px solid #D6764F;
+    background-color:#e29f83;
+    float: right;
+    margin-top: 15px;
+    line-height:25px;
+    border-radius:3px;
+    font-family:"Ubuntu";
+}
+
+button:hover {
+    background-color:#D6764F ;
+}
+
+button a {
+    text-decoration:none;
+    color:white !important;
+}
+
+button svg {
+    fill:white;
+}
+
+.jointstick {
+    margin-top:-5px;
+}
+
+.avatar {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    -webkit-box-shadow: 0 5px 10px #aaa;
+    -moz-box-shadow: 0 5px 10px #aaa;
+    box-shadow: 0 5px 10px #aaa;
+    margin-top: -30px;
+    margin-left: -39px;
+    margin-right:15px;
+    float: left;
+}
+
+.avatar img {
+    height:inherit;
+    width:inherit;
+    border-radius:inherit;
+    border: 5px solid #7FCC8D;
+    border: 5px solid #6FD08C;
+}
+
+
 .sectionheader {
   margin-bottom: 0.01px;
   padding-bottom: 5px;
@@ -396,6 +205,126 @@ ul.social {
   text-shadow: 1px 1px 0px #645268;
   font-family: "Maven Pro", "Ubuntu";
   line-height:30px;
+}
+
+/* TWITTER FETCHER --- */
+#katsfeed {
+    font-family:"Maven Pro", "Ubuntu";
+}
+
+#katsfeed ul {
+    list-style:none;
+    padding:0px;
+}
+
+#katsfeed a {
+    text-decoration:none;
+}
+
+.user {
+    font-weight:bold;
+    display:inline-block;
+}
+
+.user span {
+    display:block;
+    width:200px;
+}
+
+.user img {
+    float:left;
+    margin-right:15px;
+}
+
+.user > a {
+    text-decoration:none;
+}
+
+
+.tweet {
+    color:white;
+    position: relative;
+    top:20px;
+    width: 95%;
+    height: auto;
+    padding: 8px;
+    background: #883668;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    margin: 0 auto;
+    word-wrap:break-word;
+}
+
+/* speech bubble triangle */
+.tweet:after {
+    content: "";
+    position: absolute;
+    top: -15px;
+    left: 17px;
+    border-style: solid;
+    border-width: 15px 15px 5px 0;
+    border-color: transparent #883668;
+    display: block;
+    width: 0;
+    z-index: 1;
+}
+
+.interact {
+    position: relative;
+    float: right;
+    margin-top:-42px;
+    
+}
+
+.twitter_reply_icon, .twitter_retweet_icon, .twitter_fav_icon {
+    font-size:0px;
+    display: inline-block;
+    text-align: center;
+    padding:4px;
+    width:20px;
+}
+
+.twitter_reply_icon:before, .twitter_retweet_icon:before, .twitter_fav_icon:before {
+     font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    font-size: 18px;
+    padding-right: 0.5em;
+}
+
+.twitter_reply_icon:before {
+    content: '\f112';
+}
+
+.twitter_retweet_icon:before {
+    content: '\f079';
+}
+
+.twitter_fav_icon:before {
+    content: '\f005';
+}
+
+/* Soundcloud background */
+iframe {
+    margin-bottom: 15px;
+    margin-left:-5px;
+    -webkit-box-shadow: 5px 5px #6FD08C;
+    -moz-box-shadow: 5px 5px #6FD08C;
+    box-shadow: 5px 5px #6FD08C;
+}
+
+/* Footer --- */
+
+.footer-container {
+    background: #883668;
+    text-align:center;
+    color:#D6764F;
+}
+
+.footer-container a {
+    color:#D6764F;
 }
 
 
@@ -443,12 +372,11 @@ nav a:hover {
     font-size: 2em;
 }
 
-.main aside {
+.main audio {
     color: white;
 }
 
 .footer-container footer {
-    color: white;
     padding: 20px 0;
 }
 
